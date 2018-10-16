@@ -3,10 +3,6 @@ body {
     background-color: #929aab;
 }
 
-article{
-    position: relative;
-}
-
 h1 {
     font-size: 30pt;
     color: #f1f1f1;
@@ -68,24 +64,22 @@ img {
 .stripe {
     position: absolute;
     background-color: #555555;
-    height: 1080px;
+    height: 1920px;
     width: 100px;
+    top: -50px;
 }
 
 #cream {
     background-color: #faf7e6;
     left: 1550px;
-    top: -50px;
 }
 
 #blue {
     background-color: #83d9ef;
     left: 1400px;
-    top: -50px;
 }
 
 #orange {
     background-color: #ffa35f;
     left: 1250px;
-    top: -50px;
 }
