@@ -1,34 +1,91 @@
+body {
+    position: absolute;
+    background-color: #929aab;
+}
+
+article{
+    position: relative;
+}
+
 h1 {
     font-size: 30pt;
-    color: #555555;
+    color: #f1f1f1;
     font-family: 'Varela Round', sans-serif;
 }
 
 h2 {
     font-size: 15pt;
-    color: #626262;
+    color: #e7e7e7;
     font-family: 'Varela Round', sans-serif;
 }
 
 h3 {
     font-size: 12pt;
-    color: #626262;
+    color: #d6d6d6;
     font-family: 'Varela Round', sans-serif;
 }
 
 p {
     font-size: 10pt;
-    color: #888888;
+    color: #f5f5f5;
     font-family: 'Eczar', serif;
+    max-width: 400px;
 }
 
 ul {
+    max-width: 335px;
     font-size: 10pt;
-    color: #888888;
+    color: #f5f5f5;
     font-family: 'Eczar', serif;
 }
 
 a{
     text-decoration: none;
     color: none;
+}
+
+img {
+    border-radius: 20px;
+}
+
+#biography {
+    position: relative;
+    top: -613px;
+    left: 430px;
+}
+
+#hometown {
+    position: relative;
+    top: -600px;
+    left: 430px;
+}
+
+.subheading {
+    position: relative;
+    top: -20px;
+}
+
+.stripe {
+    position: absolute;
+    background-color: #555555;
+    height: 1080px;
+    width: 100px;
+}
+
+#cream {
+    background-color: #faf7e6;
+    left: 1550px;
+    top: -50px;
+}
+
+#blue {
+    background-color: #83d9ef;
+    left: 1400px;
+    top: -50px;
+}
+
+#orange {
+    background-color: #ffa35f;
+    left: 1250px;
+    top: -50px;
 }
