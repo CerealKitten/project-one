@@ -1,5 +1,6 @@
 body {
-    position: absolute;
+    position: relative;
+    left: 30px;
     background-color: #929aab;
 }
 
@@ -71,15 +72,15 @@ img {
 
 #cream {
     background-color: #faf7e6;
-    left: 1550px;
+    left: 1575px;
 }
 
 #blue {
     background-color: #83d9ef;
-    left: 1400px;
+    left: 1425px;
 }
 
 #orange {
     background-color: #ffa35f;
-    left: 1250px;
+    left: 1275px;
 }
